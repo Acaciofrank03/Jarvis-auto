@@ -1,0 +1,37 @@
+{
+  "rules": {
+    "device_pairings": {
+      "$centralCode": {
+        ".read": true,
+        ".write": true,
+        "info": {
+          ".read": true,
+          ".write": true
+        },
+        "requests": {
+          ".read": true,
+          ".write": true
+        },
+        "paired_devices": {
+          ".read": true,
+          ".write": true
+        },
+        "vendas_pendentes": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    },
+    "app_licenses": {
+      ".read": true,
+      ".write": true
+    },
+    "soprati_licenses": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": [
+        "centralCode"
+      ]
+    }
+  }
+}

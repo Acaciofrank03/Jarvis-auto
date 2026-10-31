@@ -1,0 +1,10 @@
+node_modules/
+.vscode
+assets/auth/baileys
+assets/temp/
+assets/temp/wa-logs.txt
+firebase-service-account.json
+.env
+node_modules/
+*.log
+firebase-service-account.json

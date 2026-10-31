@@ -1,0 +1,43 @@
+{
+  "120363425441999694@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1790866751734,
+    "activeDeviceNumber": 1
+  },
+  "120363418442868852@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1791207093701,
+    "activeDeviceNumber": 2
+  },
+  "120363417287025928@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1792320969964,
+    "activeDeviceNumber": 4
+  },
+  "120363412575526482@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1792324641985,
+    "activeDeviceNumber": 2
+  },
+  "120363424670968147@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1792402695091,
+    "activeDeviceNumber": 2
+  },
+  "120363422157840329@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1792404154251
+  },
+  "120363428652565811@g.us": {
+    "centralCode": "VD-499527",
+    "mode": "AUTOMATICO",
+    "linkedAt": 1792563753773,
+    "activeDeviceNumber": 4
+  }
+}

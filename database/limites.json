@@ -1,0 +1,100 @@
+{
+  "VD-499527": {
+    "1": {
+      "megas": [
+        0,
+        307200
+      ],
+      "saldo": [
+        0,
+        5000
+      ],
+      "mlimite": [
+        {
+          "feitos": 0,
+          "limite": 10
+        },
+        {
+          "feitos": 10,
+          "limite": 10
+        }
+      ],
+      "slimite": [
+        null,
+        null
+      ]
+    },
+    "2": {
+      "megas": [
+        9038,
+        846
+      ],
+      "saldo": [
+        0.8,
+        0.8
+      ],
+      "mlimite": [
+        {
+          "feitos": 9,
+          "limite": 10
+        },
+        {
+          "feitos": 10,
+          "limite": 10
+        }
+      ],
+      "slimite": [
+        null,
+        null
+      ]
+    },
+    "3": {
+      "megas": [
+        7787,
+        10240
+      ],
+      "saldo": [
+        null,
+        null
+      ],
+      "mlimite": [
+        {
+          "feitos": 3,
+          "limite": 10
+        },
+        {
+          "feitos": 0,
+          "limite": 10
+        }
+      ],
+      "slimite": [
+        null,
+        null
+      ]
+    },
+    "4": {
+      "megas": [
+        703,
+        9737
+      ],
+      "saldo": [
+        0.05,
+        0.03
+      ],
+      "mlimite": [
+        {
+          "feitos": 7,
+          "limite": 10
+        },
+        {
+          "feitos": 1,
+          "limite": 10
+        }
+      ],
+      "slimite": [
+        null,
+        null
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+PATCH DE ALUGUEL - JARVIS BOT
+
+Este pacote contém os arquivos alterados para unificar o sistema de aluguel.
+
+ALTERAÇÕES:
+- Sistema único em src/services/rentals.js.
+- Removida a implementação antiga de src/utils/rentals.js.
+- /aluguel <dias> usa o serviço único.
+- /rental <dias> ficou como alias do mesmo serviço.
+- /revogar G1 usa o mesmo serviço.
+- Middleware passou a usar src/services/rentals.js.
+- Avisos de vencimento são inicializados e o socket é atualizado nas reconexões.
+- O aluguel antigo permanente foi migrado para 365 dias no database/rentals.json.
+
+IMPORTANTE:
+O arquivo antigo abaixo precisa ser apagado no projeto:
+src/utils/rentals.js
+
+APLICAÇÃO PELO TERMUX:
+1. Coloque este ZIP em Download.
+2. No Termux:
+   cd ~/projetos/jarvis-bot
+   unzip -o ~/storage/downloads/rentals_patch.zip
+   rm -f src/utils/rentals.js
+3. Depois confira:
+   grep -R "utils/rentals\|setRental\|getRental\|removeRental" -n src --exclude-dir=node_modules
+
+O comando acima deve não retornar nenhuma linha.
+
+Depois reinicie o bot com:
+   npm start

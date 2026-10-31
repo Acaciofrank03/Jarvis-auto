@@ -1,0 +1,1478 @@
+{
+  "authorized_groups": {
+    "120363425441999694@g_us": {
+      "approvedAt": 1790681833197,
+      "approvedBy": "8c1b7897868f10ea",
+      "groupId": "120363425441999694@g.us",
+      "groupName": "J.A.R.V.I.S - AUTO Teste"
+    }
+  },
+  "comprovantes_oficiais": {
+    "ACTIVASTE": {
+      "amount_mt": 5,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Activaste Todas redes Jackpot e recebeste 5 Min p/ falares p/ todas as redes. Tens um total de 5 Min ate 02-Oct 06:45.",
+      "safe_key": "ACTIVASTE",
+      "status": "DISPONIVEL",
+      "timestamp": 1790829971098,
+      "tx_id": "ACTIVASTE"
+    },
+    "CI260930_1652_F41684": {
+      "amount_mt": 7000,
+      "name": "Cliente e-Mola",
+      "phone": "Desconhecido",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: CI260930.1652.F41684. Recebeu 7,000.00MT do Agente ID 63861, AMERICO MARCELINO NHANTUMBO, as 16:52:46 30/09/2026. Novo saldo: 10,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "CI260930_1652_F41684",
+      "status": "DISPONIVEL",
+      "timestamp": 1790780019640,
+      "tx_id": "CI260930.1652.F41684"
+    },
+    "DIT5LRCHYB3": {
+      "amount_mt": 253,
+      "name": "Cliente M-Pesa",
+      "phone": "850652459",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT5LRCHYB3. Recebeste 253.00MT de 258850652459 - ESTEVAO aos 29/9/26 as 6:55 PM. O teu novo saldo M-Pesa e de 828.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIT5LRCHYB3",
+      "status": "DISPONIVEL",
+      "timestamp": 1790700953349,
+      "tx_id": "DIT5LRCHYB3"
+    },
+    "DIT7LR81MCB": {
+      "amount_mt": 200,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT7LR81MCB. Recebeste  200.00MT de 901400 - AGENT APP aos 29/9/26  as 2:41 PM o novo saldo  M-Pesa e de 595.00MT. Aproveita e transfere SEM TAXAS de M-Pesa para M-Pesa. Em caso de duvida, liga 100.",
+      "safe_key": "DIT7LR81MCB",
+      "status": "DISPONIVEL",
+      "timestamp": 1790685718509,
+      "tx_id": "DIT7LR81MCB"
+    },
+    "DIT7LRESXTF": {
+      "amount_mt": 35,
+      "name": "Cliente M-Pesa",
+      "phone": "846119475",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT7LRESXTF. Recebeste 35.00MT de 258846119475 - JOSHUA aos 29/9/26 as 9:36 PM. O teu novo saldo M-Pesa e de 1,180.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIT7LRESXTF",
+      "status": "DISPONIVEL",
+      "timestamp": 1790710586806,
+      "tx_id": "DIT7LRESXTF"
+    },
+    "DIU0LRN8V6E": {
+      "amount_mt": 13,
+      "name": "Cliente M-Pesa",
+      "phone": "846900005",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU0LRN8V6E. Recebeste 13.00MT de 258846900005 - ANDRE aos 30/9/26 as 1:56 PM. O teu novo saldo M-Pesa e de 2,263.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU0LRN8V6E",
+      "status": "DISPONIVEL",
+      "timestamp": 1790769373604,
+      "tx_id": "DIU0LRN8V6E"
+    },
+    "DIU1LRPF08Z": {
+      "amount_mt": 50,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU1LRPF08Z. Recebeste 50.00MT de 258842616855 - MANUEL aos 30/9/26 as 4:13 PM. O teu novo saldo M-Pesa e de 2,313.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU1LRPF08Z",
+      "status": "DISPONIVEL",
+      "timestamp": 1790777623399,
+      "tx_id": "DIU1LRPF08Z"
+    },
+    "DIU2LRKLRQA": {
+      "amount_mt": 90,
+      "name": "Cliente M-Pesa",
+      "phone": "847760254",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU2LRKLRQA. Recebeste 90.00MT de 258847760254 - ALFREDO aos 30/9/26 as 11:36 AM. O teu novo saldo M-Pesa e de 2,135.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU2LRKLRQA",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760998046,
+      "tx_id": "DIU2LRKLRQA"
+    },
+    "DIU3LRGRGGF": {
+      "amount_mt": 770,
+      "name": "Cliente M-Pesa",
+      "phone": "855785449",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU3LRGRGGF. Recebeste 770.00MT de 258855785449 - MILVA aos 30/9/26 as 7:37 AM. O teu novo saldo M-Pesa e de 1,950.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU3LRGRGGF",
+      "status": "DISPONIVEL",
+      "timestamp": 1790746631771,
+      "tx_id": "DIU3LRGRGGF"
+    },
+    "DIU3LRSOQX9": {
+      "amount_mt": 70,
+      "name": "Cliente M-Pesa",
+      "phone": "845813365",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU3LRSOQX9. Recebeste 70.00MT de 258845813365 - YURNA aos 30/9/26 as 6:56 PM. O teu novo saldo M-Pesa e de 2,458.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU3LRSOQX9",
+      "status": "DISPONIVEL",
+      "timestamp": 1790787405156,
+      "tx_id": "DIU3LRSOQX9"
+    },
+    "DIU4LRPFSVM": {
+      "amount_mt": 30,
+      "name": "Cliente M-Pesa",
+      "phone": "852425357",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU4LRPFSVM. Recebeste 30.00MT de 258852425357 - IZMIR aos 30/9/26 as 4:15 PM. O teu novo saldo M-Pesa e de 2,343.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU4LRPFSVM",
+      "status": "DISPONIVEL",
+      "timestamp": 1790777706473,
+      "tx_id": "DIU4LRPFSVM"
+    },
+    "DIU5LRKJTUT": {
+      "amount_mt": 50,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU5LRKJTUT. Recebeste 50.00MT de 258842616855 - MANUEL aos 30/9/26 as 11:33 AM. O teu novo saldo M-Pesa e de 2,045.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU5LRKJTUT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760800191,
+      "tx_id": "DIU5LRKJTUT"
+    },
+    "DIU5LRR9R1D": {
+      "amount_mt": 20,
+      "name": "Cliente M-Pesa",
+      "phone": "845365355",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU5LRR9R1D. Recebeste 20.00MT de 258845365355 - FELIZARDA aos 30/9/26 as 5:54 PM. O teu novo saldo M-Pesa e de 2,363.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU5LRR9R1D",
+      "status": "DISPONIVEL",
+      "timestamp": 1790783693657,
+      "tx_id": "DIU5LRR9R1D"
+    },
+    "DIU6LRIDEI0": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "844325990",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU6LRIDEI0. Recebeste 25.00MT de 258844325990 - AUGUSTO aos 30/9/26 as 9:34 AM. O teu novo saldo M-Pesa e de 1,975.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU6LRIDEI0",
+      "status": "DISPONIVEL",
+      "timestamp": 1790753662771,
+      "tx_id": "DIU6LRIDEI0"
+    },
+    "DIU7LRKJ6KT": {
+      "amount_mt": 20,
+      "name": "Cliente M-Pesa",
+      "phone": "857190732",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU7LRKJ6KT. Recebeste 20.00MT de 258857190732 - ELDO aos 30/9/26 as 11:32 AM. O teu novo saldo M-Pesa e de 1,995.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU7LRKJ6KT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760727518,
+      "tx_id": "DIU7LRKJ6KT"
+    },
+    "DIU7LRRQCPT": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "856452787",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU7LRRQCPT. Recebeste 25.00MT de 258856452787 - NOLIA aos 30/9/26 as 6:15 PM. O teu novo saldo M-Pesa e de 2,388.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU7LRRQCPT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790784950015,
+      "tx_id": "DIU7LRRQCPT"
+    },
+    "DIU9LRKQ7IP": {
+      "amount_mt": 115,
+      "name": "Cliente M-Pesa",
+      "phone": "852147316",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU9LRKQ7IP. Recebeste 115.00MT de 258852147316 - WILMA aos 30/9/26 as 11:44 AM. O teu novo saldo M-Pesa e de 2,250.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU9LRKQ7IP",
+      "status": "DISPONIVEL",
+      "timestamp": 1790761449777,
+      "tx_id": "DIU9LRKQ7IP"
+    },
+    "DJ12LRX7IR4": {
+      "amount_mt": 60,
+      "name": "Cliente M-Pesa",
+      "phone": "849193656",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DJ12LRX7IR4. Recebeste 60.00MT de 258849193656 - ISSUFO aos 1/10/26 as 7:16 AM. O teu novo saldo M-Pesa e de 2,543.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DJ12LRX7IR4",
+      "status": "DISPONIVEL",
+      "timestamp": 1790831805704,
+      "tx_id": "DJ12LRX7IR4"
+    },
+    "DJ14LRWYX2K": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DJ14LRWYX2K. Recebeste 25.00MT de 258842616855 - MANUEL aos 1/10/26 as 6:50 AM. O teu novo saldo M-Pesa e de 2,483.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DJ14LRWYX2K",
+      "status": "DISPONIVEL",
+      "timestamp": 1790830247981,
+      "tx_id": "DJ14LRWYX2K"
+    },
+    "PP260928_1819_Y93688": {
+      "amount_mt": 10,
+      "name": "Cliente e-Mola",
+      "phone": "862623419",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1819.y93688. Recebeu 10.00MT de 862623419, DEYSE FRANCISCO CUMBANE as 18:19:34 28/09/2026. Conteudo: 188. O seu novo saldo e de 5,902.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1819_Y93688",
+      "status": "DISPONIVEL",
+      "timestamp": 1790612397484,
+      "tx_id": "PP260928.1819.Y93688"
+    },
+    "PP260928_1834_R49325": {
+      "amount_mt": 354,
+      "name": "Cliente e-Mola",
+      "phone": "879044130",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1834.R49325. Recebeu 354.00MT de 879044130, Estevao Manuel Simao Gimo as 18:34:38 28/09/2026. Conteudo: 20HB. O seu novo saldo e de 6,256.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1834_R49325",
+      "status": "DISPONIVEL",
+      "timestamp": 1790613294126,
+      "tx_id": "PP260928.1834.R49325"
+    },
+    "PP260928_1852_C76748": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "860403395",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1852.c76748. Recebeu 90.00MT de 860403395, Ivania Marcia Ubisse as 18:52:11 28/09/2026. Conteudo: 841804876. O seu novo saldo e de 6,346.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1852_C76748",
+      "status": "DISPONIVEL",
+      "timestamp": 1790623446243,
+      "tx_id": "PP260928.1852.C76748"
+    },
+    "PP260928_1909_U09424": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "868019846",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1909.U09424. Recebeu 25.00MT de 868019846, Cremildo Dino Carlos Ernesto Joaque as 19:09:46 28/09/2026. Conteudo: . O seu novo saldo e de 6,371.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1909_U09424",
+      "status": "DISPONIVEL",
+      "timestamp": 1790615396932,
+      "tx_id": "PP260928.1909.U09424"
+    },
+    "PP260928_1932_F29017": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "868555593",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1932.f29017. Recebeu 20.00MT de 868555593, TAUXIRA SUMAILA SILIMO as 19:32:40 28/09/2026. Conteudo: 20. O seu novo saldo e de 351.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1932_F29017",
+      "status": "DISPONIVEL",
+      "timestamp": 1790616765674,
+      "tx_id": "PP260928.1932.F29017"
+    },
+    "PP260928_2011_S17805": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2011.s17805. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 20:11:04 28/09/2026. Conteudo: . O seu novo saldo e de 376.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2011_S17805",
+      "status": "DISPONIVEL",
+      "timestamp": 1790619072157,
+      "tx_id": "PP260928.2011.S17805"
+    },
+    "PP260928_2029_H09802": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "865013771",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2029.h09802. Recebeu 90.00MT de 865013771, BONIFACIO ARMANDO MUBAI JUNIOR as 20:29:05 28/09/2026. Conteudo: . O seu novo saldo e de 466.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2029_H09802",
+      "status": "DISPONIVEL",
+      "timestamp": 1790620166967,
+      "tx_id": "PP260928.2029.H09802"
+    },
+    "PP260928_2214_X79010": {
+      "amount_mt": 1000,
+      "name": "Cliente e-Mola",
+      "phone": "861419111",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2214.X79010. Recebeu 1,000.00MT de 861419111, Milva Nhaquila as 22:14:26 28/09/2026. Conteudo: 100gb. O seu novo saldo e de 1,466.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2214_X79010",
+      "status": "DISPONIVEL",
+      "timestamp": 1790626737521,
+      "tx_id": "PP260928.2214.X79010"
+    },
+    "PP260929_1346_W15298": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1346.w15298. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 13:46:51 29/09/2026. Conteudo: . O seu novo saldo e de 1,786.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1346_W15298",
+      "status": "DISPONIVEL",
+      "timestamp": 1790682417206,
+      "tx_id": "PP260929.1346.W15298"
+    },
+    "PP260929_1405_Y14604": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1405.Y14604. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 14:05:10 29/09/2026. Conteudo: Megas. O seu novo saldo e de 1,836.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1405_Y14604",
+      "status": "DISPONIVEL",
+      "timestamp": 1790683514123,
+      "tx_id": "PP260929.1405.Y14604"
+    },
+    "PP260929_1420_C34684": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1420.c34684. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 14:20:23 29/09/2026. Conteudo: Megas. O seu novo saldo e de 1,886.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1420_C34684",
+      "status": "DISPONIVEL",
+      "timestamp": 1790684426870,
+      "tx_id": "PP260929.1420.C34684"
+    },
+    "PP260929_1423_B48384": {
+      "amount_mt": 280,
+      "name": "Cliente e-Mola",
+      "phone": "876853342",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1423.B48384. Recebeu 280.00MT de 876853342, LOLA LUCAS NGOVE as 14:23:09 29/09/2026. Conteudo: 23. O seu novo saldo e de 2,166.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1423_B48384",
+      "status": "DISPONIVEL",
+      "timestamp": 1790684593237,
+      "tx_id": "PP260929.1423.B48384"
+    },
+    "PP260929_1857_A35711": {
+      "amount_mt": 101,
+      "name": "Cliente e-Mola",
+      "phone": "879044130",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1857.a35711. Recebeu 101.00MT de 879044130, Estevao Manuel Simao Gimo as 18:57:18 29/09/2026. Conteudo: 1. O seu novo saldo e de 2,367.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1857_A35711",
+      "status": "DISPONIVEL",
+      "timestamp": 1790701042655,
+      "tx_id": "PP260929.1857.A35711"
+    },
+    "PP260929_2114_G81464": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "872017623",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.2114.g81464. Recebeu 20.00MT de 872017623, Egas Almeida Cuna as 21:14:19 29/09/2026. Conteudo: 844687654. O seu novo saldo e de 2,462.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_2114_G81464",
+      "status": "DISPONIVEL",
+      "timestamp": 1790716484854,
+      "tx_id": "PP260929.2114.G81464"
+    },
+    "PP260929_2148_F91880": {
+      "amount_mt": 15,
+      "name": "Cliente e-Mola",
+      "phone": "876561276",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.2148.f91880. Recebeu 15.00MT de 876561276, Andre Rodrigues Junior as 21:48:51 29/09/2026. Conteudo: gs. O seu novo saldo e de 2,477.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_2148_F91880",
+      "status": "DISPONIVEL",
+      "timestamp": 1790711335276,
+      "tx_id": "PP260929.2148.F91880"
+    },
+    "PP260930_0738_T92887": {
+      "amount_mt": 1000,
+      "name": "Cliente e-Mola",
+      "phone": "861419111",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0738.t92887. Recebeu 1,000.00MT de 861419111, Milva Nhaquila as 07:38:03 30/09/2026. Conteudo: 100gb. O seu novo saldo e de 3,477.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0738_T92887",
+      "status": "DISPONIVEL",
+      "timestamp": 1790746687171,
+      "tx_id": "PP260930.0738.T92887"
+    },
+    "PP260930_0746_U11597": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "879943776",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0746.u11597. Recebeu 25.00MT de 879943776, Natali Jane Raul Raposo as 07:46:03 30/09/2026. Conteudo: 843443776. O seu novo saldo e de 3,502.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0746_U11597",
+      "status": "DISPONIVEL",
+      "timestamp": 1790747167447,
+      "tx_id": "PP260930.0746.U11597"
+    },
+    "PP260930_0814_Q16056": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "868555593",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0814.q16056. Recebeu 25.00MT de 868555593, TAUXIRA SUMAILA SILIMO as 08:14:19 30/09/2026. Conteudo: 25. O seu novo saldo e de 3,527.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0814_Q16056",
+      "status": "DISPONIVEL",
+      "timestamp": 1790748864113,
+      "tx_id": "PP260930.0814.Q16056"
+    },
+    "PP260930_1014_N87176": {
+      "amount_mt": 100,
+      "name": "Cliente e-Mola",
+      "phone": "871420317",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1014.N87176. Recebeu 100.00MT de 871420317, LIGIA RODRIGUES WANELA as 10:14:50 30/09/2026. Conteudo: q. O seu novo saldo e de 3,627.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1014_N87176",
+      "status": "DISPONIVEL",
+      "timestamp": 1790756132350,
+      "tx_id": "PP260930.1014.N87176"
+    },
+    "PP260930_1036_B43880": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1036.B43880. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 10:36:05 30/09/2026. Conteudo: Megas. O seu novo saldo e de 3,677.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1036_B43880",
+      "status": "DISPONIVEL",
+      "timestamp": 1790757369041,
+      "tx_id": "PP260930.1036.B43880"
+    },
+    "PP260930_1101_A04298": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878832781",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1101.a04298. Recebeu 25.00MT de 878832781, NILZIO MACURREIA ANTONIO as 11:01:41 30/09/2026. Conteudo: 846832781. O seu novo saldo e de 3,702.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1101_A04298",
+      "status": "DISPONIVEL",
+      "timestamp": 1790758906136,
+      "tx_id": "PP260930.1101.A04298"
+    },
+    "PP260930_1137_Y94077": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "865013771",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1137.y94077. Recebeu 90.00MT de 865013771, BONIFACIO ARMANDO MUBAI JUNIOR as 11:37:11 30/09/2026. Conteudo: F. O seu novo saldo e de 3,792.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1137_Y94077",
+      "status": "DISPONIVEL",
+      "timestamp": 1790761036078,
+      "tx_id": "PP260930.1137.Y94077"
+    },
+    "PP260930_1329_T02652": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878832781",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1329.t02652. Recebeu 25.00MT de 878832781, NILZIO MACURREIA ANTONIO as 13:29:13 30/09/2026. Conteudo: 846832781. O seu novo saldo e de 3,817.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1329_T02652",
+      "status": "DISPONIVEL",
+      "timestamp": 1790767757287,
+      "tx_id": "PP260930.1329.T02652"
+    },
+    "PP260930_1425_A81921": {
+      "amount_mt": 47,
+      "name": "Cliente e-Mola",
+      "phone": "862814136",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1425.a81921. Recebeu 47.00MT de 862814136, DOCLESIO NAZARIO CHAUQUE as 14:25:14 30/09/2026. Conteudo: 853614889. O seu novo saldo e de 3,864.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1425_A81921",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771119839,
+      "tx_id": "PP260930.1425.A81921"
+    },
+    "PP260930_1434_E07743": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878766071",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1434.e07743. Recebeu 25.00MT de 878766071, TRUCHULA JULIO MAUOCO as 14:34:30 30/09/2026. Conteudo: hh. O seu novo saldo e de 3,889.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1434_E07743",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771674065,
+      "tx_id": "PP260930.1434.E07743"
+    },
+    "PP260930_1435_D96246": {
+      "amount_mt": 30,
+      "name": "Cliente e-Mola",
+      "phone": "866705558",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1435.D96246. Recebeu 30.00MT de 866705558, AUDENCIA DANIEL MULHUI as 14:35:28 30/09/2026. Conteudo: a. O seu novo saldo e de 3,919.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1435_D96246",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771731779,
+      "tx_id": "PP260930.1435.D96246"
+    },
+    "PP260930_1448_D82421": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "879186823",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1448.d82421. Recebeu 20.00MT de 879186823, Flavio arone bila as 14:48:52 30/09/2026. Conteudo: 1. O seu novo saldo e de 3,939.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1448_D82421",
+      "status": "DISPONIVEL",
+      "timestamp": 1790779768654,
+      "tx_id": "PP260930.1448.D82421"
+    },
+    "PP260930_1529_G55067": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "879943776",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1529.G55067. Recebeu 25.00MT de 879943776, Natali Jane Raul Raposo as 15:29:57 30/09/2026. Conteudo: 843443776. O seu novo saldo e de 3,964.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1529_G55067",
+      "status": "DISPONIVEL",
+      "timestamp": 1790775000920,
+      "tx_id": "PP260930.1529.G55067"
+    },
+    "PP260930_1555_G75606": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "871847006",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1555.G75606. Recebeu 25.00MT de 871847006, TERESA DA VITORIA MALONGUETE as 15:55:26 30/09/2026. Conteudo: 25. O seu novo saldo e de 3,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1555_G75606",
+      "status": "DISPONIVEL",
+      "timestamp": 1790776548283,
+      "tx_id": "PP260930.1555.G75606"
+    },
+    "PP260930_1742_M18428": {
+      "amount_mt": 10000,
+      "name": "Cliente e-Mola",
+      "phone": "879932780",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1742.M18428. Recebeu 10,000.00MT de 879932780, ACACIO FRANCISCO CUMBANE as 17:42:22 30/09/2026. Conteudo: 2. O seu novo saldo e de 10,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1742_M18428",
+      "status": "DISPONIVEL",
+      "timestamp": 1790783303992,
+      "tx_id": "PP260930.1742.M18428"
+    },
+    "PP260930_1819_R91698": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1819.r91698. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 18:19:59 30/09/2026. Conteudo: 1. O seu novo saldo e de 11,014.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1819_R91698",
+      "status": "DISPONIVEL",
+      "timestamp": 1790785243625,
+      "tx_id": "PP260930.1819.R91698"
+    },
+    "PP260930_1837_D26355": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "876561276",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1837.d26355. Recebeu 25.00MT de 876561276, Andre Rodrigues Junior as 18:37:12 30/09/2026. Conteudo: gs. O seu novo saldo e de 11,039.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1837_D26355",
+      "status": "DISPONIVEL",
+      "timestamp": 1790786237120,
+      "tx_id": "PP260930.1837.D26355"
+    },
+    "RECEBESTE": {
+      "amount_mt": 112,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Recebeste 1125MB do PAULO PEDRO, validos por 24h. Digita *100# para saldo. Para transferir megas, digita *111# e escolhe opcao 5, depois 8.",
+      "safe_key": "RECEBESTE",
+      "status": "DISPONIVEL",
+      "timestamp": 1790685690486,
+      "tx_id": "RECEBESTE"
+    }
+  },
+  "group_requests": {
+    "-P2cjLsC0RjGXRNtwtED": {
+      "groupId": "120363425441999694@g.us",
+      "groupName": "J.A.R.V.I.S - Teste",
+      "requestId": "-P2cjLsC0RjGXRNtwtED",
+      "requestedBy": "210097535983683@lid",
+      "requestedByName": "𝙹𝙾𝚅𝙴𝙼 𝙰𝚂𝚂𝙸𝚂𝚃𝙴𝙽𝚃𝙴",
+      "status": "APROVADO",
+      "timestamp": 1790611123923
+    },
+    "-P2gwfQxuBq8YtJDk1I1": {
+      "groupId": "120363425441999694@g.us",
+      "groupName": "J.A.R.V.I.S - AUTO Teste",
+      "requestId": "-P2gwfQxuBq8YtJDk1I1",
+      "requestedBy": "19378993119260@lid",
+      "requestedByName": "𝙹𝙾𝚅𝙴𝙼",
+      "status": "APROVADO",
+      "timestamp": 1790681724878
+    }
+  },
+  "info": {
+    "masterDeviceId": "3f2ce22771577da2",
+    "masterDeviceModel": "samsung SM-A326B",
+    "registeredAt": 1790783954351,
+    "status": "ATIVO",
+    "updatedAt": 1790783954351
+  },
+  "paired_devices": {
+    "8c1b7897868f10ea": {
+      "approvedAt": 1790682385034,
+      "deviceId": "8c1b7897868f10ea",
+      "deviceModel": "samsung SM-A325F",
+      "deviceRole": "DISPARADOR_MEGAS"
+    }
+  },
+  "requests": {
+    "8c1b7897868f10ea": {
+      "deviceId": "8c1b7897868f10ea",
+      "deviceModel": "samsung SM-A325F",
+      "deviceRole": "DISPARADOR_MEGAS",
+      "status": "APROVADO",
+      "timestamp": 1790682380556
+    }
+  },
+  "sim_status": {
+    "43b2c301865df620": {
+      "atualizadoEm": "2026-10-01T05:45:33.650Z",
+      "deviceId": "43b2c301865df620",
+      "sim1": {
+        "megas": 10240,
+        "saldo": 0,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 0
+      },
+      "sim2": {
+        "megas": 5120,
+        "saldo": 0,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 0
+      }
+    },
+    "75a61db618abd018": {
+      "atualizadoEm": "2026-10-01T05:48:51.051Z",
+      "deviceId": "75a61db618abd018",
+      "sim1": {
+        "megas": 10240,
+        "saldo": 0,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 0
+      },
+      "sim2": {
+        "megas": 5120,
+        "saldo": 0,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 0
+      }
+    },
+    "8c1b7897868f10ea": {
+      "sim1": {
+        "megas": 0,
+        "saldo": 20000,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 0
+      },
+      "sim2": {
+        "megas": 5020,
+        "saldo": 20000,
+        "saldoTransferidoHoje": 0,
+        "total": 10,
+        "usado": 1
+      }
+    }
+  },
+  "sms_recebidos": {
+    "ACTIVASTE": {
+      "amount_mt": 5,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Activaste Todas redes Jackpot e recebeste 5 Min p/ falares p/ todas as redes. Tens um total de 5 Min ate 02-Oct 06:45.",
+      "safe_key": "ACTIVASTE",
+      "status": "DISPONIVEL",
+      "timestamp": 1790829971098,
+      "tx_id": "ACTIVASTE"
+    },
+    "CI260930_1652_F41684": {
+      "amount_mt": 7000,
+      "name": "Cliente e-Mola",
+      "phone": "Desconhecido",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: CI260930.1652.F41684. Recebeu 7,000.00MT do Agente ID 63861, AMERICO MARCELINO NHANTUMBO, as 16:52:46 30/09/2026. Novo saldo: 10,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "CI260930_1652_F41684",
+      "status": "DISPONIVEL",
+      "timestamp": 1790780019640,
+      "tx_id": "CI260930.1652.F41684"
+    },
+    "DIT5LRCHYB3": {
+      "amount_mt": 253,
+      "name": "Cliente M-Pesa",
+      "phone": "850652459",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT5LRCHYB3. Recebeste 253.00MT de 258850652459 - ESTEVAO aos 29/9/26 as 6:55 PM. O teu novo saldo M-Pesa e de 828.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIT5LRCHYB3",
+      "status": "DISPONIVEL",
+      "timestamp": 1790700953349,
+      "tx_id": "DIT5LRCHYB3"
+    },
+    "DIT7LR81MCB": {
+      "amount_mt": 200,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT7LR81MCB. Recebeste  200.00MT de 901400 - AGENT APP aos 29/9/26  as 2:41 PM o novo saldo  M-Pesa e de 595.00MT. Aproveita e transfere SEM TAXAS de M-Pesa para M-Pesa. Em caso de duvida, liga 100.",
+      "safe_key": "DIT7LR81MCB",
+      "status": "DISPONIVEL",
+      "timestamp": 1790685718509,
+      "tx_id": "DIT7LR81MCB"
+    },
+    "DIT7LRESXTF": {
+      "amount_mt": 35,
+      "name": "Cliente M-Pesa",
+      "phone": "846119475",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIT7LRESXTF. Recebeste 35.00MT de 258846119475 - JOSHUA aos 29/9/26 as 9:36 PM. O teu novo saldo M-Pesa e de 1,180.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIT7LRESXTF",
+      "status": "DISPONIVEL",
+      "timestamp": 1790710586806,
+      "tx_id": "DIT7LRESXTF"
+    },
+    "DIU0LRN8V6E": {
+      "amount_mt": 13,
+      "name": "Cliente M-Pesa",
+      "phone": "846900005",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU0LRN8V6E. Recebeste 13.00MT de 258846900005 - ANDRE aos 30/9/26 as 1:56 PM. O teu novo saldo M-Pesa e de 2,263.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU0LRN8V6E",
+      "status": "DISPONIVEL",
+      "timestamp": 1790769373604,
+      "tx_id": "DIU0LRN8V6E"
+    },
+    "DIU1LRPF08Z": {
+      "amount_mt": 50,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU1LRPF08Z. Recebeste 50.00MT de 258842616855 - MANUEL aos 30/9/26 as 4:13 PM. O teu novo saldo M-Pesa e de 2,313.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU1LRPF08Z",
+      "status": "DISPONIVEL",
+      "timestamp": 1790777623399,
+      "tx_id": "DIU1LRPF08Z"
+    },
+    "DIU2LRKLRQA": {
+      "amount_mt": 90,
+      "name": "Cliente M-Pesa",
+      "phone": "847760254",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU2LRKLRQA. Recebeste 90.00MT de 258847760254 - ALFREDO aos 30/9/26 as 11:36 AM. O teu novo saldo M-Pesa e de 2,135.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU2LRKLRQA",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760998046,
+      "tx_id": "DIU2LRKLRQA"
+    },
+    "DIU3LRGRGGF": {
+      "amount_mt": 770,
+      "name": "Cliente M-Pesa",
+      "phone": "855785449",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU3LRGRGGF. Recebeste 770.00MT de 258855785449 - MILVA aos 30/9/26 as 7:37 AM. O teu novo saldo M-Pesa e de 1,950.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU3LRGRGGF",
+      "status": "DISPONIVEL",
+      "timestamp": 1790746631771,
+      "tx_id": "DIU3LRGRGGF"
+    },
+    "DIU3LRSOQX9": {
+      "amount_mt": 70,
+      "name": "Cliente M-Pesa",
+      "phone": "845813365",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU3LRSOQX9. Recebeste 70.00MT de 258845813365 - YURNA aos 30/9/26 as 6:56 PM. O teu novo saldo M-Pesa e de 2,458.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU3LRSOQX9",
+      "status": "DISPONIVEL",
+      "timestamp": 1790787405156,
+      "tx_id": "DIU3LRSOQX9"
+    },
+    "DIU4LRPFSVM": {
+      "amount_mt": 30,
+      "name": "Cliente M-Pesa",
+      "phone": "852425357",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU4LRPFSVM. Recebeste 30.00MT de 258852425357 - IZMIR aos 30/9/26 as 4:15 PM. O teu novo saldo M-Pesa e de 2,343.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU4LRPFSVM",
+      "status": "DISPONIVEL",
+      "timestamp": 1790777706473,
+      "tx_id": "DIU4LRPFSVM"
+    },
+    "DIU5LRKJTUT": {
+      "amount_mt": 50,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU5LRKJTUT. Recebeste 50.00MT de 258842616855 - MANUEL aos 30/9/26 as 11:33 AM. O teu novo saldo M-Pesa e de 2,045.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU5LRKJTUT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760800191,
+      "tx_id": "DIU5LRKJTUT"
+    },
+    "DIU5LRR9R1D": {
+      "amount_mt": 20,
+      "name": "Cliente M-Pesa",
+      "phone": "845365355",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU5LRR9R1D. Recebeste 20.00MT de 258845365355 - FELIZARDA aos 30/9/26 as 5:54 PM. O teu novo saldo M-Pesa e de 2,363.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU5LRR9R1D",
+      "status": "DISPONIVEL",
+      "timestamp": 1790783693657,
+      "tx_id": "DIU5LRR9R1D"
+    },
+    "DIU6LRIDEI0": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "844325990",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU6LRIDEI0. Recebeste 25.00MT de 258844325990 - AUGUSTO aos 30/9/26 as 9:34 AM. O teu novo saldo M-Pesa e de 1,975.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU6LRIDEI0",
+      "status": "DISPONIVEL",
+      "timestamp": 1790753662771,
+      "tx_id": "DIU6LRIDEI0"
+    },
+    "DIU7LRKJ6KT": {
+      "amount_mt": 20,
+      "name": "Cliente M-Pesa",
+      "phone": "857190732",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU7LRKJ6KT. Recebeste 20.00MT de 258857190732 - ELDO aos 30/9/26 as 11:32 AM. O teu novo saldo M-Pesa e de 1,995.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU7LRKJ6KT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790760727518,
+      "tx_id": "DIU7LRKJ6KT"
+    },
+    "DIU7LRRQCPT": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "856452787",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU7LRRQCPT. Recebeste 25.00MT de 258856452787 - NOLIA aos 30/9/26 as 6:15 PM. O teu novo saldo M-Pesa e de 2,388.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU7LRRQCPT",
+      "status": "DISPONIVEL",
+      "timestamp": 1790784950015,
+      "tx_id": "DIU7LRRQCPT"
+    },
+    "DIU9LRKQ7IP": {
+      "amount_mt": 115,
+      "name": "Cliente M-Pesa",
+      "phone": "852147316",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DIU9LRKQ7IP. Recebeste 115.00MT de 258852147316 - WILMA aos 30/9/26 as 11:44 AM. O teu novo saldo M-Pesa e de 2,250.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DIU9LRKQ7IP",
+      "status": "DISPONIVEL",
+      "timestamp": 1790761449777,
+      "tx_id": "DIU9LRKQ7IP"
+    },
+    "DJ12LRX7IR4": {
+      "amount_mt": 60,
+      "name": "Cliente M-Pesa",
+      "phone": "849193656",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DJ12LRX7IR4. Recebeste 60.00MT de 258849193656 - ISSUFO aos 1/10/26 as 7:16 AM. O teu novo saldo M-Pesa e de 2,543.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DJ12LRX7IR4",
+      "status": "DISPONIVEL",
+      "timestamp": 1790831805704,
+      "tx_id": "DJ12LRX7IR4"
+    },
+    "DJ14LRWYX2K": {
+      "amount_mt": 25,
+      "name": "Cliente M-Pesa",
+      "phone": "842616855",
+      "provider": "M-Pesa",
+      "raw_text": "Confirmado DJ14LRWYX2K. Recebeste 25.00MT de 258842616855 - MANUEL aos 1/10/26 as 6:50 AM. O teu novo saldo M-Pesa e de 2,483.00MT. Em caso de duvida, liga 100. M-Pesa e facil!",
+      "safe_key": "DJ14LRWYX2K",
+      "status": "DISPONIVEL",
+      "timestamp": 1790830247981,
+      "tx_id": "DJ14LRWYX2K"
+    },
+    "PP260928_1819_Y93688": {
+      "amount_mt": 10,
+      "name": "Cliente e-Mola",
+      "phone": "862623419",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1819.y93688. Recebeu 10.00MT de 862623419, DEYSE FRANCISCO CUMBANE as 18:19:34 28/09/2026. Conteudo: 188. O seu novo saldo e de 5,902.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1819_Y93688",
+      "status": "DISPONIVEL",
+      "timestamp": 1790612397484,
+      "tx_id": "PP260928.1819.Y93688"
+    },
+    "PP260928_1834_R49325": {
+      "amount_mt": 354,
+      "name": "Cliente e-Mola",
+      "phone": "879044130",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1834.R49325. Recebeu 354.00MT de 879044130, Estevao Manuel Simao Gimo as 18:34:38 28/09/2026. Conteudo: 20HB. O seu novo saldo e de 6,256.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1834_R49325",
+      "status": "DISPONIVEL",
+      "timestamp": 1790613294126,
+      "tx_id": "PP260928.1834.R49325"
+    },
+    "PP260928_1852_C76748": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "860403395",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1852.c76748. Recebeu 90.00MT de 860403395, Ivania Marcia Ubisse as 18:52:11 28/09/2026. Conteudo: 841804876. O seu novo saldo e de 6,346.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1852_C76748",
+      "status": "DISPONIVEL",
+      "timestamp": 1790623446243,
+      "tx_id": "PP260928.1852.C76748"
+    },
+    "PP260928_1909_U09424": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "868019846",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1909.U09424. Recebeu 25.00MT de 868019846, Cremildo Dino Carlos Ernesto Joaque as 19:09:46 28/09/2026. Conteudo: . O seu novo saldo e de 6,371.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1909_U09424",
+      "status": "DISPONIVEL",
+      "timestamp": 1790615396932,
+      "tx_id": "PP260928.1909.U09424"
+    },
+    "PP260928_1932_F29017": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "868555593",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.1932.f29017. Recebeu 20.00MT de 868555593, TAUXIRA SUMAILA SILIMO as 19:32:40 28/09/2026. Conteudo: 20. O seu novo saldo e de 351.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_1932_F29017",
+      "status": "DISPONIVEL",
+      "timestamp": 1790616765674,
+      "tx_id": "PP260928.1932.F29017"
+    },
+    "PP260928_2011_S17805": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2011.s17805. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 20:11:04 28/09/2026. Conteudo: . O seu novo saldo e de 376.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2011_S17805",
+      "status": "DISPONIVEL",
+      "timestamp": 1790619072157,
+      "tx_id": "PP260928.2011.S17805"
+    },
+    "PP260928_2029_H09802": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "865013771",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2029.h09802. Recebeu 90.00MT de 865013771, BONIFACIO ARMANDO MUBAI JUNIOR as 20:29:05 28/09/2026. Conteudo: . O seu novo saldo e de 466.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2029_H09802",
+      "status": "DISPONIVEL",
+      "timestamp": 1790620166967,
+      "tx_id": "PP260928.2029.H09802"
+    },
+    "PP260928_2214_X79010": {
+      "amount_mt": 1000,
+      "name": "Cliente e-Mola",
+      "phone": "861419111",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260928.2214.X79010. Recebeu 1,000.00MT de 861419111, Milva Nhaquila as 22:14:26 28/09/2026. Conteudo: 100gb. O seu novo saldo e de 1,466.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260928_2214_X79010",
+      "status": "DISPONIVEL",
+      "timestamp": 1790626737521,
+      "tx_id": "PP260928.2214.X79010"
+    },
+    "PP260929_1346_W15298": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1346.w15298. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 13:46:51 29/09/2026. Conteudo: . O seu novo saldo e de 1,786.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1346_W15298",
+      "status": "DISPONIVEL",
+      "timestamp": 1790682417206,
+      "tx_id": "PP260929.1346.W15298"
+    },
+    "PP260929_1405_Y14604": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1405.Y14604. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 14:05:10 29/09/2026. Conteudo: Megas. O seu novo saldo e de 1,836.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1405_Y14604",
+      "status": "DISPONIVEL",
+      "timestamp": 1790683514123,
+      "tx_id": "PP260929.1405.Y14604"
+    },
+    "PP260929_1420_C34684": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1420.c34684. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 14:20:23 29/09/2026. Conteudo: Megas. O seu novo saldo e de 1,886.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1420_C34684",
+      "status": "DISPONIVEL",
+      "timestamp": 1790684426870,
+      "tx_id": "PP260929.1420.C34684"
+    },
+    "PP260929_1423_B48384": {
+      "amount_mt": 280,
+      "name": "Cliente e-Mola",
+      "phone": "876853342",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1423.B48384. Recebeu 280.00MT de 876853342, LOLA LUCAS NGOVE as 14:23:09 29/09/2026. Conteudo: 23. O seu novo saldo e de 2,166.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1423_B48384",
+      "status": "DISPONIVEL",
+      "timestamp": 1790684593237,
+      "tx_id": "PP260929.1423.B48384"
+    },
+    "PP260929_1857_A35711": {
+      "amount_mt": 101,
+      "name": "Cliente e-Mola",
+      "phone": "879044130",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.1857.a35711. Recebeu 101.00MT de 879044130, Estevao Manuel Simao Gimo as 18:57:18 29/09/2026. Conteudo: 1. O seu novo saldo e de 2,367.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_1857_A35711",
+      "status": "DISPONIVEL",
+      "timestamp": 1790701042655,
+      "tx_id": "PP260929.1857.A35711"
+    },
+    "PP260929_2114_G81464": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "872017623",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.2114.g81464. Recebeu 20.00MT de 872017623, Egas Almeida Cuna as 21:14:19 29/09/2026. Conteudo: 844687654. O seu novo saldo e de 2,462.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_2114_G81464",
+      "status": "DISPONIVEL",
+      "timestamp": 1790716484854,
+      "tx_id": "PP260929.2114.G81464"
+    },
+    "PP260929_2148_F91880": {
+      "amount_mt": 15,
+      "name": "Cliente e-Mola",
+      "phone": "876561276",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260929.2148.f91880. Recebeu 15.00MT de 876561276, Andre Rodrigues Junior as 21:48:51 29/09/2026. Conteudo: gs. O seu novo saldo e de 2,477.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260929_2148_F91880",
+      "status": "DISPONIVEL",
+      "timestamp": 1790711335276,
+      "tx_id": "PP260929.2148.F91880"
+    },
+    "PP260930_0738_T92887": {
+      "amount_mt": 1000,
+      "name": "Cliente e-Mola",
+      "phone": "861419111",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0738.t92887. Recebeu 1,000.00MT de 861419111, Milva Nhaquila as 07:38:03 30/09/2026. Conteudo: 100gb. O seu novo saldo e de 3,477.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0738_T92887",
+      "status": "DISPONIVEL",
+      "timestamp": 1790746687171,
+      "tx_id": "PP260930.0738.T92887"
+    },
+    "PP260930_0746_U11597": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "879943776",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0746.u11597. Recebeu 25.00MT de 879943776, Natali Jane Raul Raposo as 07:46:03 30/09/2026. Conteudo: 843443776. O seu novo saldo e de 3,502.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0746_U11597",
+      "status": "DISPONIVEL",
+      "timestamp": 1790747167447,
+      "tx_id": "PP260930.0746.U11597"
+    },
+    "PP260930_0814_Q16056": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "868555593",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.0814.q16056. Recebeu 25.00MT de 868555593, TAUXIRA SUMAILA SILIMO as 08:14:19 30/09/2026. Conteudo: 25. O seu novo saldo e de 3,527.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_0814_Q16056",
+      "status": "DISPONIVEL",
+      "timestamp": 1790748864113,
+      "tx_id": "PP260930.0814.Q16056"
+    },
+    "PP260930_1014_N87176": {
+      "amount_mt": 100,
+      "name": "Cliente e-Mola",
+      "phone": "871420317",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1014.N87176. Recebeu 100.00MT de 871420317, LIGIA RODRIGUES WANELA as 10:14:50 30/09/2026. Conteudo: q. O seu novo saldo e de 3,627.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1014_N87176",
+      "status": "DISPONIVEL",
+      "timestamp": 1790756132350,
+      "tx_id": "PP260930.1014.N87176"
+    },
+    "PP260930_1036_B43880": {
+      "amount_mt": 50,
+      "name": "Cliente e-Mola",
+      "phone": "866929945",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1036.B43880. Recebeu 50.00MT de 866929945, JOSE JOAO LICENCO as 10:36:05 30/09/2026. Conteudo: Megas. O seu novo saldo e de 3,677.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1036_B43880",
+      "status": "DISPONIVEL",
+      "timestamp": 1790757369041,
+      "tx_id": "PP260930.1036.B43880"
+    },
+    "PP260930_1101_A04298": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878832781",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1101.a04298. Recebeu 25.00MT de 878832781, NILZIO MACURREIA ANTONIO as 11:01:41 30/09/2026. Conteudo: 846832781. O seu novo saldo e de 3,702.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1101_A04298",
+      "status": "DISPONIVEL",
+      "timestamp": 1790758906136,
+      "tx_id": "PP260930.1101.A04298"
+    },
+    "PP260930_1137_Y94077": {
+      "amount_mt": 90,
+      "name": "Cliente e-Mola",
+      "phone": "865013771",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1137.y94077. Recebeu 90.00MT de 865013771, BONIFACIO ARMANDO MUBAI JUNIOR as 11:37:11 30/09/2026. Conteudo: F. O seu novo saldo e de 3,792.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1137_Y94077",
+      "status": "DISPONIVEL",
+      "timestamp": 1790761036078,
+      "tx_id": "PP260930.1137.Y94077"
+    },
+    "PP260930_1329_T02652": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878832781",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1329.t02652. Recebeu 25.00MT de 878832781, NILZIO MACURREIA ANTONIO as 13:29:13 30/09/2026. Conteudo: 846832781. O seu novo saldo e de 3,817.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1329_T02652",
+      "status": "DISPONIVEL",
+      "timestamp": 1790767757287,
+      "tx_id": "PP260930.1329.T02652"
+    },
+    "PP260930_1425_A81921": {
+      "amount_mt": 47,
+      "name": "Cliente e-Mola",
+      "phone": "862814136",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1425.a81921. Recebeu 47.00MT de 862814136, DOCLESIO NAZARIO CHAUQUE as 14:25:14 30/09/2026. Conteudo: 853614889. O seu novo saldo e de 3,864.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1425_A81921",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771119839,
+      "tx_id": "PP260930.1425.A81921"
+    },
+    "PP260930_1434_E07743": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "878766071",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1434.e07743. Recebeu 25.00MT de 878766071, TRUCHULA JULIO MAUOCO as 14:34:30 30/09/2026. Conteudo: hh. O seu novo saldo e de 3,889.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1434_E07743",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771674065,
+      "tx_id": "PP260930.1434.E07743"
+    },
+    "PP260930_1435_D96246": {
+      "amount_mt": 30,
+      "name": "Cliente e-Mola",
+      "phone": "866705558",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1435.D96246. Recebeu 30.00MT de 866705558, AUDENCIA DANIEL MULHUI as 14:35:28 30/09/2026. Conteudo: a. O seu novo saldo e de 3,919.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1435_D96246",
+      "status": "DISPONIVEL",
+      "timestamp": 1790771731779,
+      "tx_id": "PP260930.1435.D96246"
+    },
+    "PP260930_1448_D82421": {
+      "amount_mt": 20,
+      "name": "Cliente e-Mola",
+      "phone": "879186823",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1448.d82421. Recebeu 20.00MT de 879186823, Flavio arone bila as 14:48:52 30/09/2026. Conteudo: 1. O seu novo saldo e de 3,939.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1448_D82421",
+      "status": "DISPONIVEL",
+      "timestamp": 1790779768654,
+      "tx_id": "PP260930.1448.D82421"
+    },
+    "PP260930_1529_G55067": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "879943776",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1529.G55067. Recebeu 25.00MT de 879943776, Natali Jane Raul Raposo as 15:29:57 30/09/2026. Conteudo: 843443776. O seu novo saldo e de 3,964.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1529_G55067",
+      "status": "DISPONIVEL",
+      "timestamp": 1790775000920,
+      "tx_id": "PP260930.1529.G55067"
+    },
+    "PP260930_1555_G75606": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "871847006",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1555.G75606. Recebeu 25.00MT de 871847006, TERESA DA VITORIA MALONGUETE as 15:55:26 30/09/2026. Conteudo: 25. O seu novo saldo e de 3,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1555_G75606",
+      "status": "DISPONIVEL",
+      "timestamp": 1790776548283,
+      "tx_id": "PP260930.1555.G75606"
+    },
+    "PP260930_1742_M18428": {
+      "amount_mt": 10000,
+      "name": "Cliente e-Mola",
+      "phone": "879932780",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1742.M18428. Recebeu 10,000.00MT de 879932780, ACACIO FRANCISCO CUMBANE as 17:42:22 30/09/2026. Conteudo: 2. O seu novo saldo e de 10,989.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1742_M18428",
+      "status": "DISPONIVEL",
+      "timestamp": 1790783303992,
+      "tx_id": "PP260930.1742.M18428"
+    },
+    "PP260930_1819_R91698": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "865972672",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1819.r91698. Recebeu 25.00MT de 865972672, Antonio Francisco Banze as 18:19:59 30/09/2026. Conteudo: 1. O seu novo saldo e de 11,014.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1819_R91698",
+      "status": "DISPONIVEL",
+      "timestamp": 1790785243625,
+      "tx_id": "PP260930.1819.R91698"
+    },
+    "PP260930_1837_D26355": {
+      "amount_mt": 25,
+      "name": "Cliente e-Mola",
+      "phone": "876561276",
+      "provider": "e-Mola",
+      "raw_text": "ID Trans: PP260930.1837.d26355. Recebeu 25.00MT de 876561276, Andre Rodrigues Junior as 18:37:12 30/09/2026. Conteudo: gs. O seu novo saldo e de 11,039.00MT. Em caso de duvida, ligue para 100.",
+      "safe_key": "PP260930_1837_D26355",
+      "status": "DISPONIVEL",
+      "timestamp": 1790786237120,
+      "tx_id": "PP260930.1837.D26355"
+    },
+    "RECEBESTE": {
+      "amount_mt": 112,
+      "name": "Cliente M-Pesa",
+      "phone": "Desconhecido",
+      "provider": "M-Pesa",
+      "raw_text": "Recebeste 1125MB do PAULO PEDRO, validos por 24h. Digita *100# para saldo. Para transferir megas, digita *111# e escolhe opcao 5, depois 8.",
+      "safe_key": "RECEBESTE",
+      "status": "DISPONIVEL",
+      "timestamp": 1790685690486,
+      "tx_id": "RECEBESTE"
+    }
+  },
+  "vendas_pendentes": {
+    "-P2gqJmf1szpjeJFCuT8": {
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790680059279,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gqgtksbid8H4kYNQk": {
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790680158036,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gvuNtqdswKG06dIv7": {
+      "id": "-P2gvuNtqdswKG06dIv7",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790681523980,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gwqIxxok3-uOsz5S6": {
+      "id": "-P2gwqIxxok3-uOsz5S6",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790681769421,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gxD-UgZTSgquQrpCL": {
+      "id": "-P2gxD-UgZTSgquQrpCL",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 1,
+      "timestamp": 1790681866480,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gyfUViNn9Uzr038kr": {
+      "id": "-P2gyfUViNn9Uzr038kr",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 1,
+      "timestamp": 1790682249392,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2gzTiqZoDq1sIZWdy5": {
+      "id": "-P2gzTiqZoDq1sIZWdy5",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790682459270,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2h-LHbBQ73wQdDdukn": {
+      "id": "-P2h-LHbBQ73wQdDdukn",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790682686839,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2h0ZRvK0gfYLeD_h2m": {
+      "id": "-P2h0ZRvK0gfYLeD_h2m",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790683006994,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2i0run2C1hBCa6YZIf": {
+      "id": "-P2i0run2C1hBCa6YZIf",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "targetSimSlot": 1,
+      "timestamp": 1790699863861,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2n1QPg_c8cA28SsEw9": {
+      "id": "-P2n1QPg_c8cA28SsEw9",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 1,
+      "timestamp": 1790783895345,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2n43eQ7JMjc67-rfiq": {
+      "assumidoEm": 1790784589092,
+      "assumidoPor": "3f2ce22771577da2",
+      "clientePhone": "842398403",
+      "finalizadoEm": 1790784629978,
+      "id": "-P2n43eQ7JMjc67-rfiq",
+      "isManual": true,
+      "megasAmount": 1024,
+      "motivoErro": "Problema de ligação ou código MMI inválido.",
+      "status": "FALHA",
+      "targetDeviceId": "3f2ce22771577da2",
+      "timestamp": 1790784588537,
+      "ussdMethod": "*162#",
+      "ussdResponseText": "Problema de ligação ou código MMI inválido.",
+      "valorPago": 0
+    },
+    "-P2n4L-o2lKIhJXDy0q-": {
+      "id": "-P2n4L-o2lKIhJXDy0q-",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 14,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 1,
+      "timestamp": 1790784659600,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2n80miV1PKDLdPwLew": {
+      "id": "-P2n80miV1PKDLdPwLew",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 14,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 1,
+      "timestamp": 1790785625469,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2n8e4zqbMVq2fGKBBY": {
+      "id": "-P2n8e4zqbMVq2fGKBBY",
+      "isManual": true,
+      "megasAmount": 7168,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "timestamp": 1790785790345,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2q0S0OTcj64QVqrfgq": {
+      "id": "-P2q0S0OTcj64QVqrfgq",
+      "isManual": true,
+      "megasAmount": 7168,
+      "repeticoes": 1,
+      "status": "PENDENTE",
+      "targetDeviceId": "8c1b7897868f10ea",
+      "targetSimSlot": 2,
+      "timestamp": 1790833971409,
+      "ussdMethod": "*109#",
+      "valorPago": 0
+    },
+    "-P2q0qgGN7DITUsWNzXx": {
+      "clientePhone": "842398403",
+      "id": "-P2q0qgGN7DITUsWNzXx",
+      "isManual": true,
+      "megasAmount": 1024,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "timestamp": 1790834076553,
+      "ussdMethod": "*162#",
+      "valorPago": 0
+    },
+    "-P2q2kXMlE08hTp1dHh4": {
+      "clientePhone": "842398403",
+      "id": "-P2q2kXMlE08hTp1dHh4",
+      "isManual": true,
+      "megasAmount": 1024,
+      "status": "PENDENTE",
+      "targetDeviceId": "3f2ce22771577da2",
+      "timestamp": 1790834575632,
+      "ussdMethod": "*162#",
+      "valorPago": 0
+    },
+    "75dc6ce7-45c8-4caa-9799-9f031f34f936": {
+      "finalizadoEm": 1790699990982,
+      "motivoErro": "",
+      "status": "SUCESSO",
+      "ussdResponseText": "Transacao sem sucesso. Nao podes presentear teu proprio numero neste servico. Obrigado. \nOK"
+    }
+  }
+}

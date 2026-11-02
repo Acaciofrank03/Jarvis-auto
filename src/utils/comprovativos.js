@@ -9,7 +9,8 @@ import {
   resolveDeviceByNumber,
 } from "../services/firebase.js";
 import { registrarCompra, mensagemSucesso } from "./rankings.js";
-import { getActiveDevices } from "./centrals.js";
+import { getActiveDevices, getCentral } from "./centrals.js";
+import { getConfig, setConfigPath } from "./centralConfig.js";
 import { getGestao } from "./gestao.js";
 import { lerTabela, salvarProduto, removerProduto } from "./produtos.js";
 import { lerContas, lerSuporte } from "./contas.js";
@@ -88,21 +89,20 @@ const semPrefixo = (n) => String(n).replace(/^258(?=\d{9}$)/, "");
 const num = (s) => parseFloat(String(s).replace(/,(?=\d{3}(\D|$))/g, "").replace(",", "."));
 
 // ---------- exigência do comprovativo oficial (.id on/off) ----------
-const caminhoExigeOficial = (remoteJid) => `config_id/${chave(remoteJid)}`;
+// Central (VD) a que o grupo está vinculado, ou null se o grupo não tiver central.
+const centralDe = (remoteJid) => getCentral(remoteJid)?.centralCode || null;
 
 export async function exigeOficial(remoteJid) {
-  try {
-    const v = (await get(ref(null, caminhoExigeOficial(remoteJid)))).val();
-    return v !== false;
-  } catch (e) {
-    console.error("[comprovativos] erro ao ler o modo .id, assumindo ligado:", e);
-    return true;
-  }
+  const central = centralDe(remoteJid);
+  if (!central) return true;
+  return getConfig(central, "id")?.[chave(remoteJid)] !== false;
 }
 
 export async function definirExigeOficial(remoteJid, ligado) {
-  await set(ref(null, caminhoExigeOficial(remoteJid)), !!ligado);
-}
+  const central = centralDe(remoteJid);
+  if (!central) throw new Error("Este grupo não está vinculado a nenhuma central.");
+  await setConfigPath(central, ["id", chave(remoteJid)], !!ligado);
+ }
 
 // ---------- formatação ----------
 const milhar = (n) => String(Math.round(Number(n))).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -452,20 +452,16 @@ export function produtoDaTabela(item) {
 }
 
 // ---------- disparo automático (.autosell) ----------
-const caminhoAutosell = (remoteJid) => `config_autosell/${chave(remoteJid)}`;
-
 export async function autosellLigado(remoteJid) {
-  try {
-    const v = (await get(ref(null, caminhoAutosell(remoteJid)))).val();
-    return v !== false;
-  } catch (e) {
-    console.error("[comprovativos] erro ao ler o .autosell, assumindo ligado:", e);
-    return true;
-  }
+  const central = centralDe(remoteJid);
+  if (!central) return true;
+  return getConfig(central, "autosell")?.[chave(remoteJid)] !== false;
 }
 
 export async function definirAutosell(remoteJid, ligado) {
-  await set(ref(null, caminhoAutosell(remoteJid)), !!ligado);
+  const central = centralDe(remoteJid);
+  if (!central) throw new Error("Este grupo não está vinculado a nenhuma central.");
+  await setConfigPath(central, ["autosell", chave(remoteJid)], !!ligado);
 }
 
 // ---------- pedidos aprovados ----------

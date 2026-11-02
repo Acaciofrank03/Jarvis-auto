@@ -431,3 +431,44 @@ export async function renomearCliente(centralCode, novoNome) {
   return { alteradas };
 }
 export { getDb };
+
+/**
+ * Prazo da licença do app de uma central (o maior expiresAt entre as ligadas a ela).
+ * @param {string} centralCode
+ * @param {string[]} deviceIds - aparelhos da central (acha licenças sem centralCode)
+ * @returns {Promise<number|null>} expiresAt em ms, ou null se não houver licença
+ */
+export async function getPrazoApp(centralCode, deviceIds = []) {
+  const database = getDb();
+  const snap = await database.ref("app_licenses").get();
+  const ids = new Set(deviceIds);
+  let prazo = null;
+  for (const l of Object.values(snap.val() || {})) {
+    const ativados = Object.keys(l.activatedDevices || {});
+    const ligada = l.centralCode === centralCode || ativados.some((id) => ids.has(id));
+    if (!ligada) continue;
+    const e = Number(l.expiresAt ?? l.expires_at) || 0;
+    if (e && (prazo === null || e > prazo)) prazo = e;
+  }
+  return prazo;
+}
+
+/**
+ * Prazo da licença Soprati de uma central (mesmo vencida). null se nunca existiu.
+ * @param {string} centralCode
+ * @returns {Promise<number|null>}
+ */
+export async function getPrazoSoprati(centralCode) {
+  const database = getDb();
+  const snap = await database
+    .ref("soprati_licenses")
+    .orderByChild("centralCode")
+    .equalTo(centralCode)
+    .get();
+  let prazo = null;
+  for (const l of Object.values(snap.val() || {})) {
+    const e = Number(l.expiresAt) || 0;
+    if (e && (prazo === null || e > prazo)) prazo = e;
+  }
+  return prazo;
+}

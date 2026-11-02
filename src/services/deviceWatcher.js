@@ -2,21 +2,11 @@ import { getDatabase } from "firebase-admin/database";
 import { initFirebase } from "./firebase.js";
 import { watchNewDevices } from "./firebase.js";
 import { getGrupoAlugueis } from "../utils/alugueis.js";
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const centralsPath = path.resolve(__dirname, "..", "..", "database", "centrals.json");
+import { listarCentrais } from "../utils/centrals.js";
 
 const activeWatchers = new Map(); // centralCode -> stopFunction
 
-function getAllCentralCodes() {
-  if (!fs.existsSync(centralsPath)) return [];
-  const data = JSON.parse(fs.readFileSync(centralsPath, "utf8"));
-  return [...new Set(Object.values(data).map((c) => c.centralCode))];
-}
+const getAllCentralCodes = () => listarCentrais();
 
 /**
  * Inicia os watchers de novos dispositivos para todas as centrais.

@@ -1,21 +1,30 @@
 /**
  * Megas, saldo e limites por dispositivo e por SIM, definidos à mão pelos administradores.
- * Guardado em database/limites.json:
- * { [central]: { [dispositivo]: {
+ * Guardado no Firebase em central_config/{central}/limites/d{dispositivo}:
+ * { d1: {
  *     megas:   [mbSIM1, mbSIM2],
  *     saldo:   [mtSIM1, mtSIM2],
  *     mlimite: [{ feitos, limite }, { feitos, limite }],
  *     slimite: [mtSIM1, mtSIM2]
- * } } }
+ * } }
  * Índice 0 = SIM 1, índice 1 = SIM 2. null = ainda não definido.
+ * As leituras são síncronas (cópia em memória, em centralConfig.js).
+ *
+ * Reinício diário: todos os dias às 0h (hora de Moçambique) os "feitos" de
+ * cada SIM voltam a 0. Os megas e o saldo NÃO são mexidos.
  */
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import {
+  getConfig,
+  setConfig,
+  setConfigPath,
+  listarCentraisComConfig,
+} from "./centralConfig.js";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const databasePath = path.resolve(__dirname, "..", "..", "database");
-const ARQUIVO = path.join(databasePath, "limites.json");
+const CAMPO = "limites";
+const CAMPO_DIA = "limitesDia"; // guarda a data do último reinício (ex.: "2026-11-01")
+const FUSO = "Africa/Maputo"; // meia-noite de Moçambique
+// Chaves "d1", "d2"...: o Firebase transforma chaves só com números em listas.
+const chaveDisp = (dispositivo) => `d${dispositivo}`;
 
 const vazio = () => ({
   megas: [null, null],
@@ -27,45 +36,84 @@ const vazio = () => ({
   slimite: [null, null],
 });
 
-function ler() {
-  try {
-    return JSON.parse(fs.readFileSync(ARQUIVO, "utf8"));
-  } catch {
-    return {};
-  }
-}
+// O Firebase não guarda null: um SIM sem valor chega em falta ou numa lista curta.
+const par = (v) => [v?.[0] ?? null, v?.[1] ?? null];
+const envios = (v) =>
+  [0, 1].map((i) => ({ feitos: Number(v?.[i]?.feitos) || 0, limite: v?.[i]?.limite ?? null }));
 
-// Escreve num arquivo temporário e renomeia, para nunca deixar o JSON pela metade.
-function gravar(dados) {
-  fs.mkdirSync(databasePath, { recursive: true });
-  const tmp = `${ARQUIVO}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(dados, null, 2), "utf8");
-  fs.renameSync(tmp, ARQUIVO);
-}
+const normalizar = (salvo) => ({
+  megas: par(salvo?.megas),
+  saldo: par(salvo?.saldo),
+  mlimite: envios(salvo?.mlimite),
+  slimite: par(salvo?.slimite),
+});
+
+const lerTudo = (central) => getConfig(central, CAMPO) || {};
 
 export function getLimites(central, dispositivo) {
-  const salvo = ler()[central]?.[dispositivo];
-  return salvo ? { ...vazio(), ...salvo } : vazio();
+  const salvo = lerTudo(central)[chaveDisp(dispositivo)];
+  return salvo ? normalizar(salvo) : vazio();
 }
 
 // Limites de todos os dispositivos de uma central: { [dispositivo]: { megas, saldo, ... } }
 export function listarLimites(central) {
-  return ler()[central] || {};
+  return Object.fromEntries(
+    Object.entries(lerTudo(central))
+      .filter(([k]) => /^d\d+$/.test(k))
+      .map(([k, v]) => [k.slice(1), normalizar(v)]),
+  );
 }
 
+// Grava só o campo alterado (ex.: limites/d1/megas), sem regravar os outros aparelhos.
+// Devolve os dados do aparelho já atualizados.
 function guardar(central, dispositivo, campo, valor) {
-  const dados = ler();
-  const c = (dados[central] ||= {});
-  const dev = (c[dispositivo] = { ...vazio(), ...(c[dispositivo] || {}) });
-  dev[campo] = valor;
-  gravar(dados);
-  return dev;
+  setConfigPath(central, [CAMPO, chaveDisp(dispositivo), campo], valor);
+  return getLimites(central, dispositivo);
 }
 
 export const setMegas = (central, disp, v) => guardar(central, disp, "megas", v);
 export const setSaldo = (central, disp, v) => guardar(central, disp, "saldo", v);
 export const setMLimite = (central, disp, v) => guardar(central, disp, "mlimite", v);
 export const setSLimite = (central, disp, v) => guardar(central, disp, "slimite", v);
+
+// ---------- reinício diário dos envios (meia-noite) ----------
+// Data de hoje no fuso de Moçambique, no formato "2026-11-01".
+const hoje = () => new Intl.DateTimeFormat("en-CA", { timeZone: FUSO }).format(new Date());
+
+// Põe os "feitos" de todos os SIMs de todos os aparelhos da central a 0.
+export function reiniciarEnvios(central) {
+  for (const [disp, l] of Object.entries(listarLimites(central))) {
+    setMLimite(
+      central,
+      disp,
+      l.mlimite.map((x) => ({ ...x, feitos: 0 })),
+    );
+  }
+  setConfig(central, CAMPO_DIA, hoje());
+  console.log(`[limites] envios reiniciados na central ${central}`);
+}
+
+// Compara a data guardada com a de hoje. Se mudou o dia, reinicia.
+// Como compara datas (e não só "é meia-noite?"), funciona mesmo se o bot
+// estiver desligado à meia-noite: reinicia assim que ligar.
+export function verificarReinicioDiario() {
+  const dia = hoje();
+  for (const central of listarCentraisComConfig()) {
+    const ultimo = getConfig(central, CAMPO_DIA);
+    if (ultimo === dia) continue;
+    if (ultimo == null) {
+      setConfig(central, CAMPO_DIA, dia); // primeira vez: só marca a data, não zera nada
+    } else {
+      reiniciarEnvios(central);
+    }
+  }
+}
+
+// Verifica já ao ligar e depois a cada 1 minuto.
+export function iniciarReinicioDiario() {
+  verificarReinicioDiario();
+  setInterval(verificarReinicioDiario, 60 * 1000);
+}
 
 // ---------- escolha do SIM em cada envio ----------
 // Começa pelo SIM 1; quando ele não serve, troca para o SIM 2.
@@ -257,3 +305,6 @@ export function caixa(icone, titulo, linhas, selo = "🛒") {
     `\n▢\n╰━━─「${selo}」─━━`
   );
 }
+
+// Liga o reinício diário assim que o ficheiro é carregado (não precisa chamar em mais nenhum lado).
+iniciarReinicioDiario();

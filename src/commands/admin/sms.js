@@ -63,7 +63,7 @@ export default {
         const cliente = censurar(String(p.jid).replace("@sms", "").replace(/^258/, ""));
         const ids = (p.ids || []).join(", ") || "—";
         return (
-          `*\( {i + 1}.* \` \){p.msgId}\`\n` +
+          `*${i + 1}.* \`${p.msgId}\`\n` +
           `   👤 ${cliente} | 💰 ${p.valor} MT\n` +
           `   📊 ${p.status} | ⏱️ ${min} min\n` +
           `   🔎 ${ids}`
@@ -91,11 +91,11 @@ export default {
       }
 
       const resumo = removidos
-        .map((r) => `• \`\( {r.msgId}\` ( \){r.valor} MT) — era ${r.statusAnterior}`)
+        .map((r) => `• \`${r.msgId}\` (${r.valor} MT) — era ${r.statusAnterior}`)
         .join("\n");
 
       return sendReply(
-        `🗑️ *Pedidos SMS limpos:* \( {removidos.length}\n\n \){resumo}`
+        `🗑️ *Pedidos SMS limpos:* ${removidos.length}\n\n${resumo}`
       );
     }
 

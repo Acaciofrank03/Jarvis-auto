@@ -50,16 +50,16 @@
     },
     "3": {
       "megas": [
-        7787,
+        3240,
         10240
       ],
       "saldo": [
-        null,
-        null
+        0.05,
+        0
       ],
       "mlimite": [
         {
-          "feitos": 3,
+          "feitos": 6,
           "limite": 10
         },
         {
@@ -74,20 +74,20 @@
     },
     "4": {
       "megas": [
-        703,
-        9737
+        92160,
+        102400
       ],
       "saldo": [
-        0.05,
+        0.8,
         0.03
       ],
       "mlimite": [
         {
-          "feitos": 7,
+          "feitos": 1,
           "limite": 10
         },
         {
-          "feitos": 1,
+          "feitos": 0,
           "limite": 10
         }
       ],

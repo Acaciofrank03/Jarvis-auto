@@ -15,13 +15,13 @@
     "centralCode": "VD-499527",
     "mode": "AUTOMATICO",
     "linkedAt": 1792320969964,
-    "activeDeviceNumber": 4
+    "activeDeviceNumber": 3
   },
   "120363412575526482@g.us": {
     "centralCode": "VD-499527",
     "mode": "AUTOMATICO",
     "linkedAt": 1792324641985,
-    "activeDeviceNumber": 2
+    "activeDeviceNumber": 4
   },
   "120363424670968147@g.us": {
     "centralCode": "VD-499527",
@@ -38,6 +38,6 @@
     "centralCode": "VD-499527",
     "mode": "AUTOMATICO",
     "linkedAt": 1792563753773,
-    "activeDeviceNumber": 4
+    "activeDeviceNumber": 3
   }
 }

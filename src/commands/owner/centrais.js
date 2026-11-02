@@ -1,96 +1,77 @@
 import { PREFIX } from "../../config.js";
 import { WarningError } from "../../errors/index.js";
 import { isBotOwner } from "../../middlewares/index.js";
-import { getDeviceList, checkSopratiLicenseForCentral } from "../../services/firebase.js";
-import { getCentral } from "../../utils/centrals.js";
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { getDeviceList, getPrazoApp, getPrazoSoprati } from "../../services/firebase.js";
+import { getTodasCentrais } from "../../utils/centrals.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const centralsPath = path.resolve(__dirname, "..", "..", "..", "database", "centrals.json");
+const DIA = 24 * 60 * 60 * 1000;
+
+// "30 dia(s)" enquanto vale; "vencida"/"vencido" depois. null se não houver prazo.
+function prazoTexto(expiresAt, vencido = "vencida") {
+  if (!expiresAt) return null;
+  const dias = Math.ceil((expiresAt - Date.now()) / DIA);
+  return dias > 0 ? `${dias} dia(s)` : vencido;
+}
 
 export default {
   name: "centrais",
-  description: "Lista todas as centrais e grupos vinculados.",
+  description: "Lista as centrais com as licenças, os grupos e os aparelhos de cada uma.",
   commands: ["centrais"],
   usage: `${PREFIX}centrais`,
 
   handle: async ({ userLid, socket, sendReply }) => {
     if (!isBotOwner({ userLid })) return;
 
-    if (!fs.existsSync(centralsPath)) {
-      throw new WarningError("Nenhuma central vinculada ainda.");
-    }
-
-    const centrals = JSON.parse(fs.readFileSync(centralsPath, "utf8"));
-    const entries = Object.entries(centrals);
-
+    const entries = Object.entries(getTodasCentrais());
     if (!entries.length) {
       throw new WarningError("Nenhuma central vinculada ainda.");
     }
 
-    // Agrupa por centralCode
+    // Agrupa os grupos por central
     const porCentral = {};
     for (const [groupId, data] of entries) {
-      const code = data.centralCode;
-      if (!porCentral[code]) porCentral[code] = [];
-      porCentral[code].push({ groupId, ...data });
+      (porCentral[data.centralCode] ||= []).push({ groupId, nome: data.nome });
     }
 
-    let texto = `🕷 🔔 ╭━━⪩ CENTRAIS VINCULADAS ⪨━━\n▢\n`;
+    let texto = `🕷 🔔 ╭━━⪩ CENTRAIS ⪨━━\n▢\n`;
 
-    let contador = 1;
-
-    for (const [code, grupos] of Object.entries(porCentral)) {
-      // Licença Soprati (se existir)
-      let linhaLicenca = "📅 Licença: gerenciada no aplicativo";
+    for (const [code, grupos] of Object.entries(porCentral).sort(([a], [b]) => a.localeCompare(b))) {
+      let devices = [];
       try {
-        const lic = await checkSopratiLicenseForCentral(code);
-        if (lic) {
-          const dias = Math.ceil((lic.expiresAt - Date.now()) / (1000 * 60 * 60 * 24));
-          const venc = new Date(lic.expiresAt).toLocaleDateString("pt-PT", {
-            timeZone: "Africa/Maputo",
-          });
-          linhaLicenca =
-            dias > 0
-              ? `📅 Vencimento: ${venc} • ${dias} dia(s)`
-              : `📅 Licença vencida em ${venc}`;
-        }
+        devices = await getDeviceList(code);
       } catch {}
 
-      // Dispositivos
-      let dispositivos = "Nenhum dispositivo";
-      try {
-        const devices = await getDeviceList(code);
-        if (devices.length) {
-          dispositivos = devices
-            .map((d) => `Dispositivo ${d.numero}: \( {d.deviceModel} \){d.isMaster ? " ⭐" : ""}`)
-            .join("\n▢     ");
-        }
-      } catch {}
+      const [soprati, app] = await Promise.all([
+        getPrazoSoprati(code).catch(() => null),
+        getPrazoApp(code, devices.map((d) => d.deviceId)).catch(() => null),
+      ]);
 
-      for (const g of grupos) {
-        let nome = g.groupId;
-        try {
-          nome = (await socket.groupMetadata(g.groupId)).subject || g.groupId;
-        } catch {}
+      const nomes = await Promise.all(
+        grupos.map(async (g) => {
+          try {
+            return (await socket.groupMetadata(g.groupId)).subject || g.nome || g.groupId;
+          } catch {
+            return g.nome || g.groupId;
+          }
+        }),
+      );
 
-        texto +=
-          `▢\n` +
-          `▢ ✅ Central ${contador}: ${code}\n` +
-          `▢ 📋 Grupo: ${nome}\n` +
-          `▢ 🆔 ID: ${g.groupId}\n` +
-          `▢ ${linhaLicenca}\n` +
-          `▢ 📱 Dispositivos:\n▢     ${dispositivos}\n` +
-          `▢\n`;
-        contador++;
+      texto += `✅ Central ${code}\n`;
+      if (soprati) texto += `🔷 Soprati: ${prazoTexto(soprati, "vencido")}\n`;
+      texto += `📅 AppLicença: ${prazoTexto(app) || "sem licença"}\n`;
+      texto += `Grupos:\n`;
+      nomes.forEach((nome, i) => {
+        texto += `${i + 1} ${nome}\n`;
+      });
+      texto += `📱 Dispositivos:\n`;
+      if (!devices.length) texto += `Nenhum\n`;
+      for (const d of devices) {
+        texto += `${d.numero} ${d.deviceModel}${d.isMaster ? " ⭐" : ""}\n`;
       }
+      texto += `▢\n`;
     }
 
     texto += `╰━━─「🔑」─━━`;
-
     await sendReply(texto);
   },
 };
